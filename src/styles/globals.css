@@ -1,0 +1,65 @@
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.addFade-left {
+  width: auto;
+  height: auto;
+  transition: all 0.5s ease-in-out;
+  
+  
+}
+.removeFade-left {
+  transform: scaleX(0);
+  z-index: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.border-style-color { 
+  padding: 1rem 1rem;
+  transition: transform 0.5s cubic-bezier(0.5, 2, 0.8, 1.5);
+  animation: boxMagic 3s linear 2s infinite alternate;
+}
+
+@keyframes boxMagic {
+  from {
+    box-shadow: 0 0 0 #197bac, 0 0 10px #6c757d, 0 0 10px #f44c04,
+      0 0 10px #dc3545;
+  }
+  to {
+    box-shadow: 0 -10px 0 #212529, -10px 0 0 #f44c04, 0 10px 0 #197bac,
+      10px 0 0 #dc3545;
+  }
+}
+.miin-w-50{
+  min-width: 50%;
+}

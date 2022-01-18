@@ -1,0 +1,95 @@
+.bg-first-home{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/falcon-image.appspot.com/o/266905081_264917198966459_1069450191447965902_n.png?alt=media&token=49435349-93de-408e-b17d-90d492cd6cbd");
+min-height: 90vh;
+
+font-size: 5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+ 
+
+}
+.arrw-Down{
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+.arrw-Down:hover{
+  color: gray;
+  
+}
+
+.text-5r{
+  font-size: 5rem;
+}
+
+
+/* ----- sexon ------*/
+
+.section-flex{
+  
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+}
+  .img-section{
+    z-index: 0;
+    background-repeat: no-repeat;
+  background-size: contain;
+  position: sticky;
+  top: 25vh;
+  min-height: 50vh;
+  max-width: 40%;
+  width: max-content;
+  min-width: 20rem;
+  display: block; 
+
+}
+
+.img-section-1{
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/falcon-image.appspot.com/o/image_2022-01-16_202647.png?alt=media&token=caaf05d3-c5b9-403f-bf9e-4557b361ff54');
+}
+
+.img-section-2{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/falcon-image.appspot.com/o/image_2022-01-16_202927.png?alt=media&token=08e9dbd5-f7ef-4599-bf56-3ef9f8958bde");
+}
+
+.section-flex-item{
+  
+  min-height: 50vh;
+  min-width: 40%;
+  max-width: 20rem;
+  display: block; 
+
+}
+.flex-list{
+  display: flex;
+  margin: 1rem 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-list li{
+  padding: 1rem 1rem;
+  width: 50%;
+  min-width: 10rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: column;
+}
+.adventage-list-item {
+  max-width: 20rem;
+  margin: 2rem 2rem;
+  
+   
+}

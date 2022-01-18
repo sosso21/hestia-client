@@ -1,0 +1,35 @@
+.section-Sheet-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section-Sheet-flex article {
+  min-width: 40%;
+  max-width: 50%;
+}
+
+.logo-right {
+  min-width: 20rem;
+  min-height: 20rem;
+  width: 20rem;
+  height: 20rem;
+
+  margin: auto auto;
+}
+
+.logo-right img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  margin: 1rem 1rem;
+  border-radius: 50%;
+  transition: all 0.7s ease-in;
+}
+
+.logo-right img:hover {
+  border-radius: 1rem;
+}

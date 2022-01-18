@@ -1,0 +1,30 @@
+.flex-section-items {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.aside-left {
+  min-width: 15rem;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+ 
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+  .flex-content {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
