@@ -1,7 +1,7 @@
 export const  data = {
     "name" : "HESTIA",
-    "urlClient" : "https://127.0.0.1:3000",
-    "urlServer":"http://localhost:8000",
+    "urlClient" : "https://hestia.pages.dev",
+    "urlServer":"https://hestiaserver.herokuapp.com",
     "social":[
         {
             "name" : "instagram",

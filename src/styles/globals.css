@@ -63,3 +63,8 @@
 .miin-w-50{
   min-width: 50%;
 }
+
+.table-hover{
+  
+  --bs-table-hover-color: unset;
+}
